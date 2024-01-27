@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(0, 0, 0);
+}
+.navbar:not(h1){
+    position: sticky;
+    background-color: rgba(255, 45, 255, 0);
+    top:5px;
+    height: 2rem;
+    text-align: center; 
+    word-spacing: 4rem;
+    padding: 5px;
+    /* margin: 2px; */
+    
+}
+
+a:not(.img1,.aimg1 ,.aimg2,.img2,.aimg3,.aimg4,.img5,.aimg5,.aimg6){
+    color: #ffffff;
+    /* padding: 14px 18px; */
+    text-decoration: none;  
+    background-color: rgba(245, 58, 226, 0);
+    font-size: 24px;
+    top: 5px;
+    font-weight: bold;
+    /* outline:hidden; */
+    /* outline-style:auto; */
+    outline-color: #000000;
+    /* padding: 2px;
+    margin: 2px; */
+    /* outline-width: 22px; */
+    /* outline-offset: 5px; */
+    position: sticky;
+}
+
+h1{
+    text-align: center;
+    display: flex;
+    font-family:serif;
+    font-size: 1.8rem;
+    /* background-color: rgba(118, 96, 139, 0.495); */
+    color: aliceblue;
+    position: absolute;
+    top:5px;
+    left: 12px;
+}
+img:not(.img1,.img2,.aimg4,.img5,.aimg5,.aimg6){
+width: 86%;
+/* border-radius: 2rem; */
+position: absolute;
+left: 14.7rem;
+top: 3.2rem;
+height: 93.7%;
+/* outline: auto; */
+/* outline-color: rgb(17, 9, 9); */
+/* outline-style:auto; */
+}
+h2{
+     color: rgba(255, 255, 255, 0.633);
+     position:absolute;
+     top: 60%;
+     left: 27%;
+     font-size: 3.5rem;
+     background-color: #00000000;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2::first-letter{
+    font-size: 10rem;
+    
+}
+.div1{
+     background-color: rgb(0, 0, 0);
+     width: 5cm;
+     height: 5cm;
+     border-radius: 20px;
+     display: inline-block;
+     position: absolute;
+     left: 25px;
+     top: 80px;
+}
+.img1{
+     position: absolute;
+     top: 100px;
+     width: 10%;
+     height: 18%;
+     left: 0px;
+     
+}
+.aimg1{
+     text-decoration: none;
+     position: absolute;
+     top: 17rem;
+     left: 4rem;
+     font-size: 35px;
+     /* background-color: 0); */
+     color: rgb(255, 255, 255);
+    }
+    /* .div2{
+        background-color: rgb(0, 0, 0);
+        width: 5cm;
+        height: 5cm;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        left: 25px;
+        top: 450px;
+    } */
+    .img2{
+       position: absolute;
+        top: 38%;
+        width: 10%;
+        height: 18%;
+        left: 35px;
+    }
+    .aimg4{
+        text-decoration: none;
+        position: absolute;
+        top: 34rem;
+        left: 4rem;
+        font-size: 35px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(255, 255, 255);  
+    }
+    .img5{
+        position: absolute;
+        top: 65%;
+        width: 10%;
+        height: 18%;
+        left: 35px;  
+    }
+    .aimg6{
+        text-decoration: none;
+        position: absolute;
+        top: 51rem;
+        left: 4rem;
+        font-size: 35px;
+        /* background-color: rgba(240, 248, 255, 0); */
+        color: rgb(255, 255, 255); 
+    }
+    .aimg1:hover{
+        color: blueviolet;
+        font-size: 3rem;
+
+    }
+    .aimg4:hover{
+        color: blueviolet;
+        font-size: 3rem;   
+    }
+    .aimg6:hover{
+        color: blueviolet;
+        font-size: 3rem;
+    }
+
+@media (max-width:375px){
+    h1{
+        text-align: center;
+        display: flex;
+        font-family:serif;
+        font-size: 0.75rem;
+        /* background-color: rgba(118, 96, 139, 0.495); */
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top:20px;
+        left: 10px;
+    }
+}
+@media(max-width:375px)
+{ h2{ color: rgba(255, 255, 255, 0.633);
+    position:absolute;
+    top: 60%;
+    left: 27%;
+    font-size: 1.5rem;
+    background-color: #00000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+   
+}
+@media(max-width:375px){
+    h2::first-letter{
+        font-size: 2rem;
+        
+    }
+}
+@media(max-width:375px){
+
+    a:not(.img1,.aimg1 ,.aimg2,.img2,.aimg3,.aimg4,.img5,.aimg5,.aimg6){
+         color: #ffffff;
+         text-decoration:none;  
+         background-color: rgba(245, 58, 226, 0);
+         font-size: 10px;
+         top: 2px;
+         font-weight: bold;
+              
+        }
+}
+
+@media(max-width:375px){
+    .img1{
+        position: absolute;
+        top: 100px;
+        width: 0%;
+        height: 0%;
+        left: 0px;   
+   }
+}
+
+@media(max-width:375px){
+    .img2{
+        position: absolute;
+         top: 38%;
+         width: 8%;
+         height: 9%;
+         left: 30px;
+     }
+    
+}
+@media(max-width:375px){
+    .img2{
+         position: absolute;
+         top: 29%;
+         width: 8%;
+         height: 14%;
+         left: 26px;
+     }
+}
+@media(max-width:375px){
+    .navbar:not(h1){
+        background-color: rgba(255, 45, 255, 0);
+        top:5px;
+        height: 1.5rem;
+        text-align: center; 
+        word-spacing: 1.5rem;
+        padding: 2px;        
+    }
+}
+@media(max-width:375px){
+    .aimg1{
+        text-decoration: none;
+        position: absolute;
+        top: 5rem;
+        left: 3rem;
+        font-size: 30px;
+        /* background-color: 0); */
+        color: rgb(255, 255, 255);
+       }
+}
+@media(max-width:375px)
+{
+    .img2{
+        position: absolute;
+         top: 2%;
+         width: 0%;
+         height: 18%;
+         left: 35px;
+     }
+}
+@media(max-width:375px){
+    .aimg4{
+        text-decoration: none;
+        position: absolute;
+        top: 10rem;
+        left: 3rem;
+        font-size: 30px;
+        background-color: rgba(240, 248, 255, 0);
+        color: rgb(255, 255, 255);  
+    }
+}
+
+@media(max-width:375px){
+    .img5{
+        position: absolute;
+        top: 65%;
+        width: 0%;
+        height: 18%;
+        left: 35px;  
+    }
+}
+@media(max-width:375px)
+{
+    .aimg6{
+        text-decoration: none;
+        position: absolute;
+        top: 15rem;
+        left: 3rem;
+        font-size: 30px;
+        /* background-color: rgba(240, 248, 255, 0); */
+        color: rgb(255, 255, 255); 
+    }
+}
+@media(max-width:375px){
+    img:not(.img1,.img2,.aimg4,.img5,.aimg5,.aimg6){
+        width: 62%;
+        /* border-radius: 2rem; */
+        position: absolute;
+        left: 9rem;
+        top: 3.2rem;
+        height: 70%;       
+    }
+}
+ 

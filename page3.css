@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:rgb(0, 0, 0);
+}
+.navbar:not(h1){
+    position: sticky;
+    background-color: rgba(255, 45, 255, 0);
+    top:5px;
+    height: 2rem;
+    text-align: center; 
+    word-spacing: 4rem;
+    padding: 5px;
+    /* margin: 2px; */
+    
+}
+a:not(.img1,.aimg1 ,.aimg2,.img2,.aimg3,.aimg4,.img5,.aimg5,.aimg6,.forimg1,.forimg)
+    {
+    color: #ffffff;
+    /* padding: 14px 18px; */
+    text-decoration: none;  
+    background-color: rgba(245, 58, 226, 0);
+    font-size: 24px;
+    top: 5px;
+    font-weight: bold;
+    /* outline:hidden; */
+    /* outline-style:auto; */
+    outline-color: #000000;
+    /* padding: 2px;
+    margin: 2px; */
+    /* outline-width: 22px; */
+    /* outline-offset: 5px; */
+    position: sticky;
+}
+h1{
+    text-align: center;
+    display: flex;
+    font-family:serif;
+    font-size: 1.8rem;
+    /* background-color: rgba(118, 96, 139, 0.495); */
+    color: aliceblue;
+    position: absolute;
+    top:5px;
+    left: 12px;
+}
+.img1{
+    position: absolute;
+    top: 100px;
+    width: 10%;
+    height: 18%;
+    left: 35px;
+    
+}
+.aimg1{
+    text-decoration: none;
+    position: absolute;
+    top: 17.2rem;
+    left: 4rem;
+    font-size: 35px;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 255, 255);
+   }
+   .img2{
+    position: absolute;
+     top: 38%;
+     width: 10%;
+     height: 18%;
+     left: 35px;
+ }
+ .aimg4{
+     text-decoration: none;
+     position: absolute;
+     top: 34rem;
+     left: 4rem;
+     font-size: 35px;
+     background-color: rgba(240, 248, 255, 0);
+     color: rgb(255, 255, 255);  
+ }
+ .img5{
+    position: absolute;
+    top: 65%;
+    width: 10%;
+    height: 18%;
+    left: 35px;  
+}
+.aimg6{
+    text-decoration: none;
+    position: absolute;
+    top: 52rem;
+    left: 4rem;
+    font-size: 35px;
+    /* background-color: rgba(240, 248, 255, 0); */
+    color: rgb(255, 255, 255); 
+}
+h2{
+     color: #b6baff;
+     position: absolute;
+     left: 30%;
+     top: 14%;
+     font-size: 2rem;
+}
+ul{
+    color: #ffffff;
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    font-size: 30px;
+    line-height: 3rem;
+}
+h2::first-letter{
+    font-size:3.5rem ;
+}
+li::selection{
+   background-color: #b6baff;
+   color: #000000;
+}
+
+.aimg1:hover{
+    color: purple;
+}
+.aimg4:hover{
+    color: purple;
+}
+.aimg6:hover{
+    color: purple;
+}
+@media(max-width:950px){
+ul{
+    left: 25%;
+
+}
+}
+@media(max-width:950px){
+    h1{
+        font-size: 0rem;
+    }   
+}
